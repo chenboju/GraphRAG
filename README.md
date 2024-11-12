@@ -1,4 +1,3 @@
-# GraphRAG
 # Ollama/GraphRag-Git版
 
 https://github.com/TheAiSingularity/graphrag-local-ollama
@@ -6,9 +5,8 @@ https://github.com/TheAiSingularity/graphrag-local-ollama
 https://github.com/TheAiSingularity/graphrag-local-ollama/issues/51
 
 [[Bug]: Errors in local search · Issue #451 · microsoft/graphrag](https://github.com/microsoft/graphrag/issues/451#issuecomment-2220861232)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/19a28399-22b4-40d6-b7f6-53612f8a3eee/818118db-b92d-44e5-976d-57fda726e160/image.png)
-
+# notion 連結
+https://bevel-burrito-3b7.notion.site/Ollama-GraphRag-12a6aa76e1b18034a4bed63dde1cfc0a
 ### 1.建立conda
 
 ```python
@@ -22,7 +20,6 @@ conda activate graphrag-local
 
 ### 建立目錄
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/19a28399-22b4-40d6-b7f6-53612f8a3eee/3f9e5722-2ffe-47e5-8e72-474e69515d87/image.png)
 
 ### 安裝ollama (這是python版的)
 
@@ -113,7 +110,6 @@ chunk = self.token_encoder.decode(chunk) #修改過
   chunk_lens.append(chunk_len)
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/19a28399-22b4-40d6-b7f6-53612f8a3eee/54c1b144-5cb3-4411-9458-dfcbcc53b53f/image.png)
 
 ### 建立圖表
 
@@ -151,10 +147,6 @@ search_messages = [ {"role": "user", "content": search_prompt + "\n\n### USER QU
 
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/19a28399-22b4-40d6-b7f6-53612f8a3eee/bbfb39be-b186-46a9-987a-fe6dfbcfa4c1/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/19a28399-22b4-40d6-b7f6-53612f8a3eee/3f2b5f3f-9bd0-418f-bb3a-b2f5b5261e69/image.png)
-
 ### local search
 
 query\llm\oai\ structured_search\ search_search\search.py
@@ -175,10 +167,6 @@ search_messages = [ {"role": "user", "content": search_prompt + "\n\n### USER QU
 
 ```
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/19a28399-22b4-40d6-b7f6-53612f8a3eee/bbfb39be-b186-46a9-987a-fe6dfbcfa4c1/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/19a28399-22b4-40d6-b7f6-53612f8a3eee/4803cc9a-4606-44df-8731-4754f42cf074/image.png)
-
 參考資料
 
 [傻瓜操作：GraphRAG、Ollama 本地部署及踩坑记录_linux中安装配置graphrag+ollama-CSDN博客](https://blog.csdn.net/weixin_42107217/article/details/141649920)
@@ -189,3 +177,5 @@ tokens = token_encoder.decode(tokens)
 
 GRAPHRAG_API_KEY=ollama
 GRAPHRAG_CLAIM_EXTRACTION_ENABLED=True
+
+
