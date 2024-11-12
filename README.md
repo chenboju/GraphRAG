@@ -1,10 +1,10 @@
 # Ollama/GraphRag-Git版
 參考資料
 https://github.com/TheAiSingularity/graphrag-local-ollama
-
 https://github.com/TheAiSingularity/graphrag-local-ollama/issues/51
-
 [[Bug]: Errors in local search · Issue #451 · microsoft/graphrag](https://github.com/microsoft/graphrag/issues/451#issuecomment-2220861232)
+https://www.youtube.com/watch?v=J_bDtrl7v30&t=90s
+
 # notion 連結
 https://bevel-burrito-3b7.notion.site/Ollama-GraphRag-12a6aa76e1b18034a4bed63dde1cfc0a
 ### 1.建立conda
