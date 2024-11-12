@@ -1,5 +1,6 @@
 # Ollama/GraphRag-Git版
 參考資料
+
 https://github.com/TheAiSingularity/graphrag-local-ollama
 
 https://github.com/TheAiSingularity/graphrag-local-ollama/issues/51
