@@ -1,5 +1,5 @@
 # Ollama/GraphRag-Git版
-
+參考資料
 https://github.com/TheAiSingularity/graphrag-local-ollama
 
 https://github.com/TheAiSingularity/graphrag-local-ollama/issues/51
@@ -167,7 +167,7 @@ search_messages = [ {"role": "user", "content": search_prompt + "\n\n### USER QU
 
 ```
 
-參考資料
+額外參考資料
 
 [傻瓜操作：GraphRAG、Ollama 本地部署及踩坑记录_linux中安装配置graphrag+ollama-CSDN博客](https://blog.csdn.net/weixin_42107217/article/details/141649920)
 
